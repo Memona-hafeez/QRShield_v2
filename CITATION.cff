@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "QRShield v2: A Benchmark for Visual Tamper Detection in QR Codes Beyond the Training Distribution"
+type: dataset
+version: "2.0"
+date-released: 2026-11-13
+authors:
+  - family-names: Hafeez
+    given-names: Memona
+    orcid: "https://orcid.org/0009-0007-4258-2386"
+repository-code: "https://github.com/Memona-hafeez/QRShield_v2"
+license: MIT
+abstract: >-
+  QRShield v2 is a synthetic benchmark of 66,083 images for visual tamper
+  detection in QR codes, with five tamper families, styled and logo-bearing
+  benign codes as hard negatives, and a camera-degradation layer. It comes with
+  a leakage-free evaluation protocol (base-code group split, leave-one-family-out
+  testing, validation-only thresholding) and baselines that measure
+  generalisation beyond the training distribution. The code is released under
+  the MIT license; the dataset and report under CC BY 4.0.
+keywords:
+  - QR code security
+  - quishing
+  - tamper detection
+  - distribution shift
+  - benchmark
+  - adversarial robustness
+# After publishing on Zenodo, add the dataset DOI here (uncomment and edit):
+# doi: 10.5281/zenodo.XXXXXXX
